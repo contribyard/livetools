@@ -1,25 +1,24 @@
-# README
+# Livetools application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Required tools
 
-Things you may want to cover:
+* Docker
 
-* Ruby version
+## Useful commands
 
-* System dependencies
+To start the application:
+```Bash
+make start
+```
 
-* Configuration
+To run the application's bash:
+```Bash
+make bash
+```
 
-* Database creation
+To run the application's console:
+```Bash
+make console
+```
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# livetools
