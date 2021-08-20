@@ -1,5 +1,7 @@
 # Livetools application
 
+The application ideia.... (revisit it's definition later)
+
 ## Required tools
 
 * Docker
