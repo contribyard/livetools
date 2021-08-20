@@ -4,7 +4,7 @@ The application ideia.... (revisit it's definition later)
 
 ## Required tools
 
-* Docker
+* [Docker](https://docs.docker.com/engine/install/ubuntu/)
 
 ## Useful commands
 
