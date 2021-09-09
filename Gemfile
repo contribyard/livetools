@@ -26,7 +26,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'devise'
 gem 'ruby_parser'
 gem 'nokogiri'
-gem 'omniauth-twitch', '~> 0.1.2'
+gem 'omniauth-twitch', git: 'git://github.com/WebTheoryLLC/omniauth-twitch.git'
 gem 'activerecord-session_store'
 gem 'omniauth-rails_csrf_protection'
 # Reduces boot times through caching; required in config/boot.rb

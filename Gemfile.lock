@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/WebTheoryLLC/omniauth-twitch.git
+  revision: 500027926f44362daefa1818aa58080b456199c9
+  specs:
+    omniauth-twitch (1.1.0)
+      omniauth-oauth2 (~> 1.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -161,8 +168,6 @@ GEM
     omniauth-rails_csrf_protection (1.0.0)
       actionpack (>= 4.2)
       omniauth (~> 2.0)
-    omniauth-twitch (0.1.2)
-      omniauth-oauth2 (~> 1.1)
     orm_adapter (0.5.0)
     pg (1.2.3)
     pry (0.14.1)
@@ -302,7 +307,7 @@ DEPENDENCIES
   listen (~> 3.3)
   nokogiri
   omniauth-rails_csrf_protection
-  omniauth-twitch (~> 0.1.2)
+  omniauth-twitch!
   pg (~> 1.1)
   pry
   puma (~> 5.0)
