@@ -8,6 +8,7 @@ services:
       - .:/var/app
     ports:
       - '3000:3000'
+    env_file: .env
   db:
     image: postgres:9.6.2-alpine
     ports:
