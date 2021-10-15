@@ -2,6 +2,10 @@
 
 The application ideia.... (revisit it's definition later)
 
+## Heroku Deployment link
+
+- https://ninjalivetools.herokuapp.com/
+
 ## Required tools
 
 * [Docker](https://docs.docker.com/engine/install/ubuntu/)
