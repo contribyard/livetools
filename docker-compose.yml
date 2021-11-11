@@ -15,5 +15,25 @@ services:
         - '5432:5432'
     volumes:
         - postgres96:/var/lib/postgresql/data
+  redis:
+    image: 'redis:4.0-alpine'
+    volumes:
+      - 'redis:/data'
+    expose:
+      - '6379'
+  sidekiq:
+    depends_on:
+      - 'db'
+      - 'redis'
+    build:
+      context: .
+    command: bundle exec sidekiq -c 1 -q default
+    volumes:
+      - '.:/var/app'
+    env_file:
+      - '.env'
+    environment:
+      - 'REDIS_URL=redis://redis:6379'
 volumes:
+  redis:
   postgres96:
