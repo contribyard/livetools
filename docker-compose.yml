@@ -9,6 +9,8 @@ services:
     ports:
       - '3000:3000'
     env_file: .env
+    environment:
+      - DATABASE_URL=postgres://postgres:@db:5432/livetools_test
   db:
     image: postgres:9.6.2-alpine
     ports:

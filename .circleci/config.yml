@@ -6,6 +6,8 @@ executors:
         environment:
             RAILS_ENV: test
             BUNDLE_PATH: vendor/bundle
+            DATABASE_URL: postgres://postgres:@localhost:5432/circle_test
+      - image: postgres:9.6.2-alpine
 jobs:
   rspec:
     executor: default
