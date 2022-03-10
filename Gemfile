@@ -30,7 +30,7 @@ gem 'omniauth-rails_csrf_protection'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'rexml', '~> 3.2', '>= 3.2.4'
-
+gem 'httparty', '~> 0.20.0'
 gem 'sidekiq'
 
 group :development, :test do
